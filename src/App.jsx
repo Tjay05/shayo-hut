@@ -5,14 +5,14 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-import Signup from "./components/Signup"
 import Login from "./pages/account/Login"
+import Register from './pages/account/Registeration';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path='/' element={<Login/>} />
-      <Route path='signup' element={<Signup/>} />
+      <Route path='signup' element={<Register/>} />
     </Route>
   )
 )

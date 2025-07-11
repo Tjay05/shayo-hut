@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="rule my-12 flex-col">
+    <div className="flex rule justify-center h-[100vh] flex-col">
       <h1 className="text-black text-3xl font-semibold font-[Poppins] mb-6">Log In</h1>
 
       <form className="my-8">

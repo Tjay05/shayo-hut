@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Signup = () => {
+const Signup = ({ onSent }) => {
   return (
-    <div className="rule my-12 flex-col">
+    <div className="rule my-12">
       <h1 className="text-black text-3xl font-semibold font-[Poppins] mb-6">Sign Up</h1>
 
       <form className="my-8">

@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "tailwindcss";
+
+.rule {
+  @apply w-[90%] mx-auto
+}
+
+.label {
+  @apply block text-base font-medium lg:text-2xl font-[Inter]
+}
+
+.input-field {
+  @apply p-2 mt-1 mb-6 text-sm  bg-[#0047e00a] lg:text-lg lg:mt-2.5 lg:mb-5 w-full border-2 border-[#f1f3f6] rounded-xl font-[Open_Sans] 
+}
+
+.submit-btn {
+  @apply bg-[#4B00E0] text-xl font-semibold py-2 rounded-xl cursor-pointer font-[Poppins] text-white my-6 w-full
+}
+
+.error {
+  @apply border border-[#e7195a]
+}
+
+.warning {
+  @apply p-1 text-sm bg-[#ffefef] border border-[#e7195a] rounded my-5
+}
 
 :root {
   /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

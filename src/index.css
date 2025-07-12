@@ -3,6 +3,13 @@
 @import "tailwindcss";
 
 @theme {
+  /* fonts */
+  --font-poppins: 'Poppins';
+  --font-dancingscript: 'Dancing Script';
+  --font-opensans: 'Open Sans';
+  --font-inter: 'Inter';
+
+  /* colors */
   --color-gradient-purple: #ff4949;
   --color-gradient-pink: #db598e;
 }
